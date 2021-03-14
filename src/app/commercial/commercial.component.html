@@ -1,0 +1,42 @@
+<div class="row">
+    <div class="col mb-2">
+        <div class="card text-white bg-dark">
+            <div class="card-header">
+                <i class="fas fa-store"></i> Commercial
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        Thurmont Paving has professional staff to handle any of your company's paving needs.  
+                        Such as, new or resurfacing of entranceways, road ways and parking lots.
+                        In addition to, pavement patching amd sealcoating.  
+                        We also provide millings, tar and chip, or lines and stripes. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card bg-dark p-2">
+    <div card="card-header">
+      <app-pic-vid-pills></app-pic-vid-pills>
+    </div>
+    <div card="card-body">
+      <div class="tab-content text-white" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <app-image-carousel [images]="images" [imagesBaseUrl]="imagesBaseUrl"></app-image-carousel>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <app-videos [videos]="videos" [videosBaseUrl]="videosBaseUrl"></app-videos>
+          </div>
+        </div>
+    </div>
+</div>
+
+<app-comments [comments]="comments"></app-comments>
+
+<br>
+<br>
+<br>
+  

@@ -1,0 +1,34 @@
+html, body {
+    /* min-width: 500px !important; */
+}
+
+a {
+    color: white;
+}
+
+a:hover { 
+    color: white;
+    text-decoration: underline;
+}
+
+#nav-contact-info a {
+    color: white;
+}
+
+#nav-contact-info a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.affix {
+    top: 64px;
+    position: fixed;
+}
+
+.carousel-indicators li {
+    cursor: pointer;
+}

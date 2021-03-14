@@ -1,0 +1,5 @@
+ng b --aot=true --buildOptimizer=true --optimization=true --prod=true --progress=true --sourceMap=false
+
+ng build && gzipper --verbose ./dist
+
+ng gzipper --verbose ./dist

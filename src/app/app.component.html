@@ -1,0 +1,108 @@
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary">
+    <a href="#" uiSref="services" uiSrefActive="active" class="m-0 p-0">
+    <img src="../assets/images/logo_red_only.png" alt="Thumont Paving" class="mt-0 mb-0 pt-0 pb-0" style="position: absolute; top: 2px; left: 10px; height: 55px;">
+  </a>
+    <a class="navbar-brand" href="#" uiSref="services" uiSrefActive="active" class="m-0 p-0">
+    <img src="../assets/images/logo_red_only.png" alt="Thumont Paving" class="mt-0 mb-0 pt-0 pb-0" style="visibility: hidden; width: 200px; height: 35px;">
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" 
+        href="#" 
+        data-toggle="collapse" 
+        data-target=".navbar-collapse.show" 
+        uiSref="services" 
+        uiSrefActive="active"><i class="fas fa-hard-hat"></i> Services</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" 
+          href="#" 
+          data-toggle="collapse" 
+          data-toggle="collapse" 
+          data-target=".navbar-collapse.show" 
+          uiSref="commercial" 
+          uiSrefActive="active"><i class="fas fa-store"></i> Commercial</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" 
+        href="#" 
+        data-toggle="collapse" 
+        data-target=".navbar-collapse.show" 
+        uiSref="residential" 
+        uiSrefActive="active"><i class="fas fa-home"></i> Residential</a>
+      </li>
+    </ul>
+    <ul id="nav-contact-info" class="navbar-nav my-2 my-lg-0">
+        <li class="nav-item">
+            <a class="nav-link" href="mailto:thurmont.paving@gmail.com">
+              <i class="fa fa-envelope"></i> thurmont.paving@gmail.com
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="tel:3016622648">
+              <i class="fas fa-mobile-alt"></i> (301) 662-2648
+            </a>
+        </li>
+      </ul>
+  </div>
+</nav>
+
+<div class="container-fluid mt-2">
+  <div class="row">
+    <div class="col-md-12">
+      <ui-view></ui-view>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-md-12 text-white bg-dark p-4">
+          <div class="row">
+              <div class="col-md-4">
+                <h6 class="card-title"><i class="fas fa-mobile-alt"></i> Phone</h6>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-dark"><a href="tel:3016622648" placement="auto">(301) 662-2648</a></li>
+                    <li class="list-group-item bg-dark"><a href="tel:8887967283" placement="auto">(888) 796-PAVE</a></li>
+                </ul>
+
+              </div>
+              <div class="col-md-4">
+                  <h6 class="card-title"><i class="fas fa-envelope"></i> Email</h6>
+                  <ul class="list-group list-group-flush pb-2">
+                      <li class="list-group-item bg-dark"><a href="mailto:thurmont.paving@gmail.com"> thurmont.paving@gmail.com</a></li>
+                  </ul>
+
+                  <h6 class="card-title"><i class="fas fa-fax"></i> Fax</h6>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item bg-dark"><a href="tel:3016622648" tooltip="Fax Number" placement="auto">(301) 662-2134</a></li>
+                  </ul>
+
+              </div>
+              <div class="col-md-4">
+                  <h6><i class="fas fa-camera"></i> Social Media</h6>
+                  <ul class="list-group list-group-flush pb-2">
+                      <li class="list-group-item bg-dark">
+                          <a class="link" target="blank" alt="Instagram Page" tooltip="Instagram Page" placement="auto"
+                          href="https://www.instagram.com/thurmont.paving/"><i class="fab fa-instagram"></i></a>
+                          <a class="link px-4" target="blank" alt="Google Business Page" tooltip="Google Business Page" placement="auto"
+                            href="https://www.google.com/maps/place/Thurmont+Paving+LLC/@39.1703176,-77.5304324,9z/data=!4m5!3m4!1s0x0:0x5b9d3a6333b4b42d!8m2!3d39.1703176!4d-77.5304324"><i class="fab fa-google-plus-g"></i></a>
+                          <a class="link" target="blank" alt="Bttter Business Bureau" tooltip="Bttter Business Bureau Page" placement="auto"
+                            href="https://www.bbb.org/us/md/thurmont/profile/paving-contractors/thurmont-paving-llc-0011-20001456"><i class="fab fa-gripfire"></i></a>
+                      </li>
+                  </ul>
+                  <h6><i class="fas fa-user-tie pb-2"></i> Licensed Contractor</h6>
+                  <h6><i class="fas fa-credit-card"></i> Credit Cards Accepted</h6>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item bg-dark">
+                          <img src="../assets/images/credit_cards.png" class="img-fluid" alt="All major credit cards accepted" tooltip="All major credit cards accepted" placement="auto">
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

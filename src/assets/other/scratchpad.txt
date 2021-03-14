@@ -1,0 +1,45 @@
+  <!--
+  <PageMap>
+     <DataObject type="document">
+        <Attribute name="title">Thurmont Paving LLC</Attribute>
+        <Attribute name="author">Check us out on the web</Attribute>
+        <Attribute name="description">Full service commercial and residential asphalt blacktop paving company. 
+			Serving Frederick MD and surrounding counties. Free Estimates, Sealcoating, Tar and Chip</Attribute>
+        <Attribute name="rating">5</Attribute>
+        <Attribute name="last_update">04/23/2017</Attribute>
+     </DataObject>
+     <DataObject type="thumbnail">
+        <Attribute name="src" value="http://www.thurmontpaving.com/images/contact_seal_job.png" />
+        <Attribute name="width" value="450" />
+        <Attribute name="height" value="300" />
+     </DataObject>
+  </PageMap>
+  -->
+
+  	<meta name="keywords"
+		content="Black Top, Blacktop, Frederick, Frederick County, Frederick County Paving, PAVING, PAVING CONTRACTOR, COMMERCIAL, INDUSTRIAL, RESIDENTIAL, STONES, BRICKS, PAVERS, ASPHALT, ASPHALT SEAL COATING, ASPHALT PAVEMENT REPAIR, ASPHALT PAVEMENT MAINTENANCE, MACHINERY, ROAD OILS, SEALING, SEALERS, SNOW REMOVAL, COBBLESTONE, MINNINGS, BLOCKS, RECYCLED MATERIAL, GRAVEL, LIMESTONE" />
+
+        <div id="keyWords" style="position: absolute; z-index: 4; visibility: hidden; top: 160px; left: 150px;">
+	Black Top, Blacktop, Frederick, Frederick County, Frederick County Paving, Paving, Paving Contractor, Commercial, Industrial, Residential,
+	Stones, Bricks, Pavers, Asphalt, Seal Coating, Pavement Repair, Pavement Maintenance, Machinery,
+	Road Oils, Sealing, Sealers, Snow Removal, Cobblestone, Minnings, Blocks, Recycled Material, Gravel, Limestone
+</div>
+
+<!--Black Top, Blacktop, Frederick, Frederick County, Frederick County Paving, Paving, Paving Contractor, Commercial, Industrial, Residential,-->
+<!--Stones, Bricks, Pavers, Asphalt, Seal Coating, Pavement Repair, Pavement Maintenance, Machinery,-->
+<!--Road Oils, Sealing, Sealers, Snow Removal, Cobblestone, Minnings, Blocks, Recycled Material, Gravel, Limestone-->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Thurmont Paving LLC",
+  "description": "Thurmont Asphalt Blacktop Paving. Seal Coating. Commercial & Residential.  Free Estimates.  Check us out on the web.",
+  "image" : "http://www.thurmontpaving.com/images/contact_seal_job.png",
+  "url" : "www.thurmontpaving.com",
+  "telephone" : "888-796-PAVE"
+}
+</script>
+
+
+Full service commercial and residential asphalt blacktop paving company. Serving Frederick and surrounding counties. Free Estimates, Seal Soating, Tar and Chip.

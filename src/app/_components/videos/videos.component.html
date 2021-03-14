@@ -1,0 +1,6 @@
+<div *ngFor="let video of videos; let v = index" class="embed-responsive embed-responsive-16by9 mt-2">
+  <video id="video_{{v}}" class="embed-responsive-item" controls="true">
+    <source [src]="videosBaseUrl + video.file1" [type]="mp4">
+      Your browser does not support the <code>video</code> element.
+  </video>
+</div>

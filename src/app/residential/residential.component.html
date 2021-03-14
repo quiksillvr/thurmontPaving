@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col mb-2">
+        <div class="card text-white bg-dark">
+            <div class="card-header">
+                <i class="fas fa-home"></i> Residential
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        Thurmont Paving specializes in residential home driveways and parking areas.  
+                        Such as, new or resurfacing of driveways, roadways and parking areas.
+                        In addition to, pavement patching and sealcoating.  
+                        We also provide pavement via millings or tar and chip. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<div class="card bg-dark p-2">
+  <div card="card-header">
+      <app-pic-vid-pills></app-pic-vid-pills>
+  </div>
+  <div card="card-body">
+      <div class="tab-content text-white" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <app-image-carousel [images]="images" [imagesBaseUrl]="imagesBaseUrl"></app-image-carousel>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <app-videos [videos]="videos" [videosBaseUrl]="videosBaseUrl"></app-videos>
+          </div>
+        </div>
+  </div>
+</div>
+
+<app-comments [comments]="comments"></app-comments>
+
+<br>
+<br>
+<br>
