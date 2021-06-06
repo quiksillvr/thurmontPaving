@@ -24,6 +24,21 @@ export class CommercialComponent implements OnInit {
 
     this.images = [
       {
+        name : '2021_flyDog_pic1.jpg',
+        title : 'Flying Dog Brewery - Frederick, MD',
+        description : 'Parking Lot and Lines',
+      },
+      {
+        name : '2021_flyDog_pic2.jpg',
+        title : 'Flying Dog Brewery - Frederick, MD',
+        description : 'Parking Lot and Lines',
+      },
+      {
+        name : '2021_flyDog_pic3.jpg',
+        title : 'Flying Dog Brewery - Frederick, MD',
+        description : 'Parking Lot and Lines',
+      },
+      {
         name : '2021_gas_station_pic6.jpg',
         title : '7Eleven Truck Stop  - Thurmont, MD',
         description : 'Gas Pumps',
@@ -32,6 +47,11 @@ export class CommercialComponent implements OnInit {
         name : '2021_gas_station_pic7.jpg',
         title : '7Eleven Truck Stop  - Thurmont, MD',
         description : 'Gas Pumps',
+      },
+      {
+        name : '2021_gas_station_pic8.jpg',
+        title : '7Eleven Truck Stop  - Thurmont, MD',
+        description : 'Finished and being used',
       },
       {
         name : '2020_medImmune_pic1.jpg',
