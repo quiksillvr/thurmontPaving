@@ -24,17 +24,17 @@ export class CommercialComponent implements OnInit {
 
     this.images = [
       {
-        name : '2021_park_pic1.jpg',
+        name : '2021_park_pic1.gif',
         title : 'Park - Frederick, MD',
         description : 'Long lane resurfacing',
       },
       {
-        name : '2021_park_pic2.jpg',
+        name : '2021_park_pic2.gif',
         title : 'Park - Frederick, MD',
         description : 'Long lane resurfacing',
       },
       {
-        name : '2021_park_pic3.jpg',
+        name : '2021_park_pic3.gif',
         title : 'Park - Frederick, MD',
         description : 'Long lane resurfacing',
       },
