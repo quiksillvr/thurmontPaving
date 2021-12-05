@@ -117,6 +117,16 @@ export class ResidentialComponent implements OnInit {
 
     this.videos = [
       {
+        file1 : 'video_driveway_1_2021.mp4',
+        file2 : null,
+        title : null
+      },
+      {
+        file1 : 'video_driveway_2_2021.mp4',
+        file2 : null,
+        title : null
+      },
+      {
         file1 : 'video_lowRes_long_driveway1.mp4',
         file2 : null,
         title : null
