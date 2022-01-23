@@ -182,6 +182,11 @@ export class CommercialComponent implements OnInit {
         title : null
       },
       {
+        file1 : 'video_parking_area_2022.mp4',
+        file2 : null,
+        title : null
+      },
+      {
         file1 : 'video_7_eleven_2021.5mb.mp4',
         file2 : null,
         title : null
