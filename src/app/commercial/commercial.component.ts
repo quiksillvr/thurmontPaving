@@ -231,31 +231,31 @@ export class CommercialComponent implements OnInit {
     const comments1: Comment[] = [
       {
         class1 : null,
+        class2 : `col-md-8`,
+        class3 : `card bg-dark text-white p-1 mt-2`,
+        content : `To George, Virginia and the Crew.
+        I thank you.  You are very kind and generous.  May God
+        return to you ten fold the blessings you bestowed on us.  God
+        loves a person who is worthy of His name, which you graciously
+        demonstrated.  Your workmanship on the parking lot blacktopping
+        job was wonderful, so very well done.  You truly are a
+        business worthy of your hire.  May God bless your business, the
+        lives of your family and the workers as you have blessed us.
+        We will remember your Christian spirit everytime we drive on the
+        parking lot.  Thank you again and may the grace of God
+        and the love of Jesus fill all that you endeavor to do.`,
+        author : `Pastor Richard Frederick, Locust Valley First Church of God`,
+        comments : null
+      },
+      {
+        class1 : null,
         class2 : `col-md-4`,
         class3 : `card bg-dark text-white p-1 mt-2`,
-        content : `This was a great experience. The most important is the quality of the work. 
-        Thurmont Paving did a great job. I received estimates for up to twice the cost. I ran 
-        into a situation where I had to trust this company to do the job while I was out of town. 
+        content : `This was a great experience. The most important is the quality of the work.
+        Thurmont Paving did a great job. I received estimates for up to twice the cost. I ran
+        into a situation where I had to trust this company to do the job while I was out of town.
         They did a great job and they are trustworthy. It just doesn’t any better than this.`,
         author : `Dennis McCullough`,
-        comments : null
-      },
-      {
-        class1 : null,
-        class2 : `col-md-4`,
-        class3 : `card bg-dark text-white p-1 mt-2`,
-        content : `I had a complete resurfacing of my driveway done by Thurmont Paving. 
-        The estimate was quick and fair, and the work was done very professional 
-        and finished on time. George and George Jr. take pride in their work.`,
-        author : `Jay Macieowski`,
-        comments : null
-      },
-      {
-        class1 : null,
-        class2 : `col-md-4`,
-        class3 : `card bg-dark text-white p-1 mt-2`,
-        content : `Amazing same day service.`,
-        author : `Josh Lawson`,
         comments : null
       }
     ];
@@ -265,9 +265,27 @@ export class CommercialComponent implements OnInit {
         class1 : null,
         class2 : `col-md-4`,
         class3 : `card bg-dark text-white p-1 mt-2`,
-        content : `Thurmont Paving did an excellent job with sealcoating my father's car wash parking lot.  
+        content : `Thurmont Paving did an excellent job with sealcoating my father's car wash parking lot.
         I'd recommend them to others.  Very professional crew.`,
         author : `Matt Roberts`,
+        comments : null
+      },
+      {
+        class1 : null,
+        class2 : `col-md-4`,
+        class3 : `card bg-dark text-white p-1 mt-2`,
+        content : `Amazing same day service.`,
+        author : `Josh Lawson`,
+        comments : null
+      },
+      {
+        class1 : null,
+        class2 : `col-md-4`,
+        class3 : `card bg-dark text-white p-1 mt-2`,
+        content : `I had a complete resurfacing of my driveway done by Thurmont Paving.
+        The estimate was quick and fair, and the work was done very professional
+        and finished on time. George and George Jr. take pride in their work.`,
+        author : `Jay Macieowski`,
         comments : null
       }
     ];
