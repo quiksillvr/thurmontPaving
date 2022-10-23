@@ -249,13 +249,12 @@ export class CommercialComponent implements OnInit {
       },
       {
         class1 : null,
-        class2 : `col-md-4`,
+        class2 : `col-md-8`,
         class3 : `card bg-dark text-white p-1 mt-2`,
-        content : `This was a great experience. The most important is the quality of the work.
-        Thurmont Paving did a great job. I received estimates for up to twice the cost. I ran
-        into a situation where I had to trust this company to do the job while I was out of town.
-        They did a great job and they are trustworthy. It just doesn’t any better than this.`,
-        author : `Dennis McCullough`,
+        content : `I would like to thank Thurmont Paving for the amazing job they
+        did with my driveway.  I couldn't have asked for anything better and the
+        crew was awesome.  `,
+        author : `Charles Green`,
         comments : null
       }
     ];
@@ -292,12 +291,15 @@ export class CommercialComponent implements OnInit {
 
     this.comments = [
       {
-        class1 : `row`,
-        class2 : null,
-        class3 : null,
-        content : null,
-        author : null,
-        comments : comments1
+        class1 : null,
+        class2 : `col-md-4`,
+        class3 : `card bg-dark text-white p-1 mt-2`,
+        content : `This was a great experience. The most important is the quality of the work.
+        Thurmont Paving did a great job. I received estimates for up to twice the cost. I ran
+        into a situation where I had to trust this company to do the job while I was out of town.
+        They did a great job and they are trustworthy. It just doesn’t any better than this.`,
+        author : `Dennis McCullough`,
+        comments : null
       },
       {
         class1 : `row`,
