@@ -148,9 +148,9 @@ export class ResidentialComponent implements OnInit {
         class1 : null,
         class2 : `col-md-6`,
         class3 : `card bg-dark text-white p-1 mt-2`,
-        content : `Thurmont Paving did an excellent job with our long (100-yard) driveway and parking area. 
-        In the second year following their work, a few small cracks appeared and Thurmont sent out 
-        a crew to make the repairs, no questions asked. Thurmont's quality work, professional approach 
+        content : `Thurmont Paving did an excellent job with our long (100-yard) driveway and parking area.
+        In the second year following their work, a few small cracks appeared and Thurmont sent out
+        a crew to make the repairs, no questions asked. Thurmont's quality work, professional approach
         and post-project support make it easy to recommend them.`,
         author : `Andrew Krepinevich`,
         comments : null
@@ -159,12 +159,12 @@ export class ResidentialComponent implements OnInit {
         class1 : null,
         class2 : `col-md-6`,
         class3 : `card bg-dark text-white p-1 mt-2`,
-        content : `Thurmont Paving was great!  They called back within an hour of my early Friday morning call, 
-        and made time adjusting to my availability to come out to our house to provide a free estimate later that day.  
-        They understood what we wanted for the driveway and were easy to talk with.  
-        They had a reasonable contract proposal e-mailed to me the next morning.  
-        I had some prep work to do first, but a few weeks later when I was ready, 
-        I called them back to schedule the driveway paving.  Even with the abnormally wet summer, 
+        content : `Thurmont Paving was great!  They called back within an hour of my early Friday morning call,
+        and made time adjusting to my availability to come out to our house to provide a free estimate later that day.
+        They understood what we wanted for the driveway and were easy to talk with.
+        They had a reasonable contract proposal e-mailed to me the next morning.
+        I had some prep work to do first, but a few weeks later when I was ready,
+        I called them back to schedule the driveway paving.  Even with the abnormally wet summer,
         they still completed the driveway right on-schedule!  It looks great!`,
         author : `Countrydave H`,
         comments : null
@@ -177,17 +177,19 @@ export class ResidentialComponent implements OnInit {
         class1 : null,
         class2 : `col-md-4`,
         class3 : `card bg-dark text-white p-1 mt-2`,
-        content : `Thank you Thurmont Paving for a wonderful paving job on my driveway!`,
-        author : `Tiffany Cooper`,
+        content : `I would like to thank Thurmont Paving for the amazing job they
+        did with my driveway.  I could not have asked for anything better and the
+        crew was awesome.`,
+        author : `Charles Green`,
         comments : null
       },
       {
         class1 : null,
         class2 : `col-md-4`,
         class3 : `card bg-dark text-white p-1 mt-2`,
-        content : `Thurmont Paving did a great job on my long and very steep driveway.  
-        A truly family company, Father, Son, and Grandson all worked on my driveway.  
-        My old driveway had several problems. A detailed evaluation was done and the 
+        content : `Thurmont Paving did a great job on my long and very steep driveway.
+        A truly family company, Father, Son, and Grandson all worked on my driveway.
+        My old driveway had several problems. A detailed evaluation was done and the
         paving took all the problems into consideration, so the completed work exceeded all my expectations.`,
         author : `Ken Schultz`,
         comments : null
@@ -196,9 +198,20 @@ export class ResidentialComponent implements OnInit {
         class1 : null,
         class2 : `col-md-4`,
         class3 : `card bg-dark text-white p-1 mt-2`,
-        content : `I've used Thurmont Paving 5 times paving segments of our rather long drive. 
+        content : `I've used Thurmont Paving 5 times paving segments of our rather long drive.
         I've found them to fair, friendly and reliable.`,
         author : `Matthew Schroebel`,
+        comments : null
+      }
+    ];
+
+    const comments3: Comment[] = [
+      {
+        class1 : null,
+        class2 : `col-md-4`,
+        class3 : `card bg-dark text-white p-1 mt-2`,
+        content : `Thank you Thurmont Paving for a wonderful paving job on my driveway!`,
+        author : `Tiffany Cooper`,
         comments : null
       }
     ];
@@ -219,6 +232,14 @@ export class ResidentialComponent implements OnInit {
         content : null,
         author : null,
         comments : comments2
+      },
+      {
+        class1 : `row`,
+        class2 : null,
+        class3 : null,
+        content : null,
+        author : null,
+        comments : comments3
       }
     ];
 
