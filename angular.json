@@ -28,6 +28,7 @@
               "src/assets/styles/css/bootstrap-grid.css",
               "src/assets/styles/css/bootstrap-reboot.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.css",
+              "node_modules/ngx-toastr/toastr.css",
               "src/assets/styles/css/custom.css"
             ],
             "scripts": [

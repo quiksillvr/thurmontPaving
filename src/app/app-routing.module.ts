@@ -3,6 +3,7 @@ import { RootModule, UIRouterModule } from '@uirouter/angular';
 import { ServicesComponent } from './services/services.component';
 import { ResidentialComponent } from './residential/residential.component';
 import { CommercialComponent } from './commercial/commercial.component';
+import { ContactComponent } from './contact/contact.component';
 
 const rootModule: RootModule = {
   states: [
@@ -20,6 +21,11 @@ const rootModule: RootModule = {
       name: "commercial",
       url: "/commercial",
       component: CommercialComponent
+    },
+    {
+      name: "contact",
+      url: "/contact",
+      component: ContactComponent
     }
   ],
   useHash: true,
