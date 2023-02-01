@@ -10,24 +10,28 @@
                   <div class="col-sm-6">
                     <div class="card text-dark">
                       <div class="card-body">
-                        <form [formGroup]="contactForm" (ngSubmit)="this.onSubmit()">
+                        <form ngNativeValidate [formGroup]="contactForm" (ngSubmit)="this.onSubmit()">
                           <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="name" class="form-control" id="name" formControlName="name" required aria-describedby="name" placeholder="Enter Name" maxlength="200">
+                            <input type="name" class="form-control" id="name" name="name" formControlName="name" required aria-describedby="name" placeholder="Enter Name" maxlength="200">
                           </div>
                           <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" formControlName="email" required aria-describedby="email" placeholder="Enter Email" maxlength="200">
+                            <input type="email" class="form-control" id="email" name="email" formControlName="email" required aria-describedby="email" placeholder="Enter Email" maxlength="200">
                           </div>
                           <div class="form-group">
-                            <label for="phone">Phone (Optional)</label>
-                            <input type="text" class="form-control" id="phone" formControlName="phone" placeholder="Enter Phone" maxlength="15">
+                            <label for="phone">Phone</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" formControlName="phone" required placeholder="Enter Phone" maxlength="15">
                           </div>
                           <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea class="form-control" rows="5" id="message" formControlName="message" required maxlength="2000"></textarea>
+                            <textarea class="form-control" rows="5" id="message" name="message" formControlName="message" required maxlength="2000"></textarea>
                           </div>
-                          <button type="submit" class="btn btn-primary float-right">Send</button>
+                          <div class="form-group">
+                            <img src="../../assets/images/random_numbers.png" width="43px" height="16px" />
+                            <input required type="text" class="form-control w-50" id="random_numbers" name="random_numbers" formControlName="random_numbers" placeholder="Enter the number shown above" maxlength="15">
+                          </div>
+                          <input type="submit" name="submit" [disabled]="is_disabled" class="btn btn-primary float-right" value="Send">
                         </form>
                       </div>
                     </div>
